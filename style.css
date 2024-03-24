@@ -1,0 +1,131 @@
+.first:hover {
+    text-decoration: underline;
+}
+
+.second h1 {
+    font-size: 60px;
+}
+.second4{
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
+.font2 {
+    font-size: 14px;
+}
+
+.font3 {
+    font-size: 23px;
+}
+
+.second3 {
+    /* background-color: rgb(136, 100, 170); */
+    height: 480px;
+}
+
+.fourth1 {
+    /* border: 1px solid red; */
+    /* border: 1px solid orange; */
+    height: 370px;
+}
+
+.fourth {
+    height: 240px;
+}
+.imaaag img{
+    /* border: 1px solid red; */
+    height:inherit;
+}
+.bottn{
+    font-size:20px ;
+}
+.fifth li:hover{
+    text-decoration: underline;  
+    cursor: pointer; 
+}
+
+
+@media screen and (max-width:1327px) {
+    .second3 {
+        /* background-color: rgb(136, 100, 170); */
+        height: 500px;
+    }
+}
+
+
+@media screen and (max-width:990px) {
+    .second3 {
+        /* background-color: blueviolet; */
+        height: 700px;
+    }
+
+    .fourth {
+        /* background-color: rgb(52, 165, 42); */
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width:984px) {
+
+    .fourth {
+        /* background-color: rgb(177, 211, 25); */
+        height: 280px;
+    }
+}
+
+@media screen and (max-width:764px) {
+    .second3 {
+        /* background-color: rgb(83, 226, 43); */
+        height: 800px;
+    }
+
+    .second3 h1 {
+        font-size: 30px;
+    }
+
+    .fourth {
+        /* background-color: rgb(42, 44, 165); */
+        height: 280px;
+    }
+}
+
+@media screen and (max-width:760px) {
+
+    .fourth {
+        /* background-color: rgb(39, 48, 2); */
+        height: 270px;
+    }
+}
+
+@media screen and (max-width:562px) {
+
+    .fourth {
+        background-color: rgb(96, 110, 39);
+        height: 290px;
+    }
+}
+
+@media screen and (max-width:562px) {
+
+    .fourth {
+        /* background-color: rgb(96, 110, 39); */
+        height: 290px;
+    }
+    .bottn{
+        /* background-color: aqua; */
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:494px) {
+
+    .fourth {
+        /* background-color: rgb(96, 110, 39); */
+        height: 300px;
+    }
+    .bottn{
+        /* background-color: aqua; */
+        font-size: 13px;
+    }
+    .bottn2{
+        font-size: 13px;
+    }
+}
